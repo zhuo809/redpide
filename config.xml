@@ -35,24 +35,24 @@
   <icon src="assets/img/icons/favicon_409.png" gap:platform="android" gap:qualifier="xhdpi"/>
   <icon src="assets/img/icons/favicon_409.png" gap:platform="blackberry"/>
   <icon src="assets/img/icons/favicon_409.png" gap:platform="blackberry" gap:state="hover"/>
-  <icon src="assets/img/icons/favicon_409.png" gap:platform="ios" width="57" height="57"/>
-  <icon src="assets/img/icons/favicon_76.png" gap:platform="ios" width="72" height="72"/>
+  <icon src="assets/img/icons/favicon_57.png" gap:platform="ios" width="57" height="57"/>
+  <icon src="assets/img/icons/favicon_72.png" gap:platform="ios" width="72" height="72"/>
   <icon src="assets/img/icons/favicon_120.png" gap:platform="ios" width="114" height="114"/>
   <icon src="assets/img/icons/favicon_152.png" gap:platform="ios" width="144" height="144"/>
   <icon src="assets/img/icons/favicon_409.png" gap:platform="webos"/>
   <icon src="assets/img/icons/favicon_409.png" gap:platform="winphone"/>
   <icon src="assets/img/icons/favicon_409.png" gap:platform="winphone" gap:role="background"/>
-  <gap:splash src="assets/img/startup/1182x2208.jpg" gap:platform="android" gap:qualifier="port-ldpi"/>
-  <gap:splash src="assets/img/startup/1182x2208.jpg" gap:platform="android" gap:qualifier="port-mdpi"/>
-  <gap:splash src="assets/img/startup/1182x2208.jpg" gap:platform="android" gap:qualifier="port-hdpi"/>
-  <gap:splash src="assets/img/startup/1182x2208.jpg" gap:platform="android" gap:qualifier="port-xhdpi"/>
-  <gap:splash src="assets/img/startup/1242x2148.jpg" gap:platform="blackberry"/>
-  <gap:splash src="assets/img/startup/750x1294.jpg" gap:platform="ios" width="320" height="480"/>
-  <gap:splash src="assets/img/startup/750x1294.jpg" gap:platform="ios" width="640" height="960"/>
-  <gap:splash src="assets/img/startup/1242x2148.jpg" gap:platform="ios" width="640" height="1136"/>
-  <gap:splash src="assets/img/startup/1242x2148.jpg" gap:platform="ios" width="768" height="1024"/>
-  <gap:splash src="assets/img/startup/1242x2148.jpg" gap:platform="ios" width="1024" height="768"/>
-  <gap:splash src="assets/img/startup/1242x2148.jpg" gap:platform="winphone"/>
+  <gap:splash src="assets/img/startup/1182x2208.png" gap:platform="android" gap:qualifier="port-ldpi"/>
+  <gap:splash src="assets/img/startup/1182x2208.png" gap:platform="android" gap:qualifier="port-mdpi"/>
+  <gap:splash src="assets/img/startup/1182x2208.png" gap:platform="android" gap:qualifier="port-hdpi"/>
+  <gap:splash src="assets/img/startup/1182x2208.png" gap:platform="android" gap:qualifier="port-xhdpi"/>
+  <gap:splash src="assets/img/startup/1242x2148.png" gap:platform="blackberry"/>
+  <gap:splash src="assets/img/startup/750x1294.png" gap:platform="ios" width="320" height="480"/>
+  <gap:splash src="assets/img/startup/Default-568h@2x.png" gap:platform="ios" width="640" height="960"/>
+  <gap:splash src="assets/img/startup/1242x2148.png" gap:platform="ios" width="640" height="1136"/>
+  <gap:splash src="assets/img/startup/1242x2148.png" gap:platform="ios" width="768" height="1024"/>
+  <gap:splash src="assets/img/startup/1242x2148.png" gap:platform="ios" width="1024" height="768"/>
+  <gap:splash src="assets/img/startup/1242x2148.png" gap:platform="winphone"/>
   <access origin="*"/>
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
@@ -62,10 +62,10 @@
   <allow-intent href="geo:*"/>
   <platform name="android">
     <preference name="Fullscreen" value="false" />
-	<splash src="assets/img/startup/750x1294.jpg" density="port-hdpi"/>
-    <splash src="assets/img/startup/1182x2208.jpg" density="port-ldpi"/>
-    <splash src="assets/img/startup/1182x2208.jpg" density="port-mdpi"/>
-    <splash src="assets/img/startup/1242x2148.jpg" density="port-xhdpi"/>
+	<splash src="assets/img/startup/750x1294.png" density="port-hdpi"/>
+    <splash src="assets/img/startup/1182x2208.png" density="port-ldpi"/>
+    <splash src="assets/img/startup/1182x2208.png" density="port-mdpi"/>
+    <splash src="assets/img/startup/1242x2148.png" density="port-xhdpi"/>
 	<allow-intent href="market:*"/>
   </platform>
   <platform name="ios">
