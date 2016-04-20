@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="redpide.fr" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="redpide.fr" version="1.0.1">
   <name>REDPIDE</name>
   <description>REDPIDE</description>
   <author href="http://www.redpide.fr/" email="zhuo809@gmail.com">Zhuo ZHANG</author>
