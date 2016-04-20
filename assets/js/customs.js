@@ -1,5 +1,6 @@
 $( document ).on( "pagecreate", ".jqm-demos", function( event ) {
-	var RoundHeight = parseInt($('.round_fond').height()-3);
+	var RoundHeight = parseInt($('.round_fond').height()-5);
+	
 	$(".round_fond").css({ top: '-'+RoundHeight+'px' });
 	
 	var search,
@@ -19,6 +20,26 @@ $( document ).on( "pagecreate", ".jqm-demos", function( event ) {
 	$( ".jqm-navmenu-link" ).on( "click", function() {
 		page.find( ".jqm-navmenu-panel:not(.jqm-panel-page-nav)" ).panel( "open" );
 	});
+	
+	/****** swiper slider ******/
+	var swiper = new Swiper('.swiper-container', {
+        //pagination: '.swiper-pagination',
+       // slidesPerView: 'auto',
+        //paginationClickable: true,
+		//centeredSlides: true,
+        autoplay: 3000,
+        autoplayDisableOnInteraction: true
+    });
+	/****************************/
+	
+	/****************************/
+	$( ".photopopup" ).on({
+        popupbeforeposition: function() {
+            var maxHeight = $( window ).height() - 60 + "px";
+            $( ".photopopup img" ).css( "max-height", maxHeight );
+        }
+    });
+	/****************************/
 
 });
 
@@ -62,7 +83,7 @@ $( document ).on( "pagecreate", "#map-page", function() {
 
 
 $(document).ready(function () {
-	var RoundHeight = parseInt($('.round_fond').height()-3);
+	var RoundHeight = parseInt($('.round_fond').height()-5);
 	$(".round_fond").css({ top: '-'+RoundHeight+'px' });
 	
 	var search,
@@ -82,9 +103,21 @@ $(document).ready(function () {
 	$( ".jqm-navmenu-link" ).on( "click", function() {
 		page.find( ".jqm-navmenu-panel:not(.jqm-panel-page-nav)" ).panel( "open" );
 	});
+	
+	/****** swiper slider ******/
+	var swiper = new Swiper('.swiper-container', {
+        //pagination: '.swiper-pagination',
+       // slidesPerView: 'auto',
+        //paginationClickable: true,
+		//centeredSlides: true,
+        autoplay: 3000,
+        autoplayDisableOnInteraction: true
+    });
+	/****************************/
+	
 });
 
 $(window).resize(function(){
-    $(".round_fond").css({ top: '-'+parseInt($('.round_fond').height()-3)+'px' });
+    $(".round_fond").css({ top: '-'+parseInt($('.round_fond').height()-5)+'px' });
 });
 

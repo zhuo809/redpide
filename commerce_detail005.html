@@ -1,0 +1,104 @@
+
+<div data-role="page" class="jqm-demos" id="commerce_detail_page_001">
+
+	<nd2-include data-src="lib/panel.header.html"></nd2-include>
+    
+    <div role="main" class="jqm-content">
+    	<div class="content_img">
+            <img src="assets/img/resto/resto005.jpg">
+        </div>
+        
+        <div class="content_commerce_bt">
+            
+            <div class="bt_commerce_contact">
+       	    	<i class="fa fa-calendar-check-o fa-lg"></i>
+                <h3>Favoris</h3>
+            </div>
+            
+            <div class="bt_commerce_contact">
+       	    	<i class="fa fa-phone fa-lg"></i>
+                <h3><a href="tel:01 44 24 38 48">Tél.</a></h3>
+            </div>
+            
+            <div class="bt_commerce_contact">
+       	    	<i class="fa fa-comment fa-lg"></i>
+                <h3><a href="#avis" data-rel="popup" data-position-to="window" data-transition="pop">Avis</a></h3>
+            </div>
+            
+            <div class="clear-both"></div>
+            
+        </div>
+        
+        <div class="bg_gris">
+            <div class="commerce-content list_detail">                
+                
+                <ul data-role="listview">
+                    <li><a href="#avis" data-rel="popup" data-position-to="window" data-transition="pop"><i class="fa fa-comment fa-lg"></i> ... 100 avis</a></li>
+                    <li><a href="#popupDialog" data-rel="popup" data-position-to="window" data-transition="pop"><i class="fa fa-map-marker fa-lg"></i> 132 rue Tolbiac, 75013 Paris</a></li>
+                    <li><i class="fa fa-subway fa-lg"></i> M7 Tolbiac</li>
+                    <li><i class="fa fa-clock-o fa-lg"></i> 11H00 - 23H00<br />Fermé lundi</li>
+                    <li><i class="fa fa-cc fa-lg"></i> Carte de 5 € à 33 €</li>
+                    <li><a href="#specialite" data-rel="popup" data-position-to="window" data-transition="pop"><i class="fa fa-heart fa-lg"></i> Spécialités</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- Pages Popup -->
+    <div data-role="popup" id="specialite" data-theme="a" class="ui-corner-all photopopup">
+    	<a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+        <div style="padding:10px 20px;" class="specialite_content">
+            <h3>Spécialités</h3>
+            <p><img src="assets/img/prod/005.jpg" /></p>
+            <p><img src="assets/img/prod/006.jpg" /></p>
+        </div>
+    </div>
+    
+    
+    
+    <div data-role="popup" id="popupDialog" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+        <div data-role="header" data-theme="a">
+        <h1>Afficher sur le plans</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <h3 class="ui-title">Voulez vous ouvre cette adresse sur votre navigation ?</h3>
+        	<p>Il va quitter l'application REDPIDE</p>
+            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back">Non</a>
+            <a href="maps:q=132+rue+Tolbiac,+75013+Paris" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b">Aller</a>
+        </div>
+    </div>
+    
+    
+    <div data-role="popup" id="avis" data-theme="a" class="ui-corner-all photopopup">
+    	<ul data-role="listview" data-inset="true">
+            <li data-role="list-divider">Friday, October 8, 2015 <span class="ui-li-count">2</span></li>
+            <li>
+            <h2>Stephen Weber</h2>
+            <p><strong>You've been invited to a meeting at Filament Group in Boston, MA</strong></p>
+            <p>Hey Stephen, if you're available at 10am tomorrow, we've got a meeting with the jQuery team.</p>
+                <p class="ui-li-aside"><strong>6:24</strong>PM</p>
+            </li>
+            <li>
+            <h2>jQuery Team</h2>
+            <p><strong>Boston Conference Planning</strong></p>
+            <p>In preparation for the upcoming conference in Boston, we need to start gathering a list of sponsors and speakers.</p>
+                <p class="ui-li-aside"><strong>9:18</strong>AM</p>
+            </li>
+            <li data-role="list-divider">Thursday, October 7, 2015 <span class="ui-li-count">1</span></li>
+            <li>
+            <h2>Avery Walker</h2>
+            <p><strong>Re: Dinner Tonight</strong></p>
+            <p>Sure, let's plan on meeting at Highland Kitchen at 8:00 tonight. Can't wait!</p>
+                <p class="ui-li-aside"><strong>4:48</strong>PM</p>
+            </li>
+        </ul>
+    </div>
+    <!-- Pages Popup -->
+    
+    
+	<nd2-include data-src="lib/panel.left.html"></nd2-include>
+
+</div><!-- /page -->
